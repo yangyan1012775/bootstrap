@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>后台管理</title>
+  <link rel="stylesheet" href="dist/css/bootstrap.css">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="nav">
+  <div class="col-sm-1"></div>
+  <div class="col-sm-10">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a href="" class="navbar-brand a0" >后台管理</a>
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html" class="a1"><i class="glyphicon glyphicon-home"></i> 后台首页</a></li>
+          <li><a href="user.html" class="a1"><i class="glyphicon glyphicon-user"></i> 用户管理</a></li>
+          <li class="act"><a href="content.html" class="a1"><i class="glyphicon glyphicon-list-alt"></i> 内容管理</a></li>
+          <li><a href="label.html" class="a1"><i class="glyphicon glyphicon-tags"></i> 标签管理</a></li>
+        </ul>
+        <ul class="nav navbar-nav pull-right">
+          <li class="dropdown">
+            <a href="" class="dropdown-toggle a1" data-toggle="dropdown">
+              admin<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right">
+              <li><a href=""><i class="glyphicon glyphicon-screenshot"></i> 前台首页</a></li>
+              <li><a href=""><i class="glyphicon glyphicon-user"></i> 个人主页</a></li>
+              <li><a href=""><i class="glyphicon glyphicon-cog"></i> 个人设置</a></li>
+              <li><a href=""><i class="glyphicon glyphicon-credit-card"></i> 账户中心</a></li>
+              <li><a href=""><i class="glyphicon glyphicon-heart"></i> 我的收藏</a></li>
+            </ul>
+          </li>
+          <li><a href="" class="a1"><i class="glyphicon glyphicon-off"></i> 退出</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-1"></div>
+</nav>
+<div class="container c5">
+  <div class="row">
+    <div class="col-sm-2">
+      <div class="list-group listnav">
+        <a href="" class="list-group-item active">用户管理</a>
+        <a href="" class="list-group-item">用户搜索</a>
+        <a href="" class="list-group-item">添加用户</a>
+      </div>
+    </div>
+    <div class="col-sm-10">
+      <h4 class="page-header">内容管理</h4>
+      <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#admini" data-toggle="tab">内容管理</a></li>
+        <li role="presentation"><a href="#addcontent" data-toggle="tab">添加内容</a></li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active" id="admini">
+          <table class="table table-hover">
+            <thead>
+            <tr class="stron">
+              <td>文章标题</td>
+              <td>作者</td>
+              <td>发布时间</td>
+              <td>操作</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td class="stron">泛Mooc职业教育，效果和就业为王</td>
+              <td>朱朝兵</td>
+              <td>2015/08/08</td>
+              <td class="dropdown">
+                <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                  操作 <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="">编辑</a></li>
+                  <li><a href="">删除</a></li>
+                  <li><a href="">全局置顶</a></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="stron">产品经理常犯的7大错误，你造吗？</td>
+              <td>朱朝兵</td>
+              <td>2015/08/08</td>
+              <td class="dropdown">
+                <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                  操作 <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="">编辑</a></li>
+                  <li><a href="">删除</a></li>
+                  <li><a href="">全局置顶</a></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="stron">如何正确使用phthon日志系统</td>
+              <td>朱朝兵</td>
+              <td>2015/08/08</td>
+              <td class="dropdown">
+                <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                  操作 <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="">编辑</a></li>
+                  <li><a href="">删除</a></li>
+                  <li><a href="">全局置顶</a></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="stron">C语言const修饰符怎么使用</td>
+              <td>朱朝兵</td>
+              <td>2015/08/08</td>
+              <td class="dropdown">
+                <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                  操作 <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="">编辑</a></li>
+                  <li><a href="">删除</a></li>
+                  <li><a href="">全局置顶</a></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="stron">Android开发用onCreatOptionsMenu()如何创</td>
+              <td>朱朝兵</td>
+              <td>2015/08/08</td>
+              <td class="dropdown">
+                <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                  操作 <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="">编辑</a></li>
+                  <li><a href="">删除</a></li>
+                  <li><a href="">全局置顶</a></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="stron">怎样才能成为优秀的iOS开发工程师</td>
+              <td>朱朝兵</td>
+              <td>2015/08/08</td>
+              <td class="dropdown">
+                <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                  操作 <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="">编辑</a></li>
+                  <li><a href="">删除</a></li>
+                  <li><a href="">全局置顶</a></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="stron">Andriod今年推出了些什么新技术</td>
+              <td>朱朝兵</td>
+              <td>2015/08/08</td>
+              <td class="dropdown">
+                <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                  操作 <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="">编辑</a></li>
+                  <li><a href="">删除</a></li>
+                  <li><a href="">全局置顶</a></li>
+                </ul>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="tab-pane" id="addcontent">
+            <form action="" class="f1">
+              <div class="form-group">
+                <label for="name">标题</label>
+                <input type="text" placeholder="请输入文章标题" id="name" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="name">文章内容</label>
+                <textarea name="" id="" rows="14" class="form-control" placeholder="请输入文章正文部分"></textarea>
+              </div>
+              <div class="form-inline">
+                 <input type="checkbox" id="check" value="option1">全局置顶
+                  <button class="btn btn-default pull-right">发布文章</button>
+              </div>
+            </form>
+        </div>
+
+        <div class="tab-pane" id="add">
+          <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#login">
+            点击添加用户
+          </button>
+          <div class="modal" id="login">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">添加用户</h4>
+                </div>
+                <div class="modal-body">
+                  <form action="" role="form">
+                    <div class="form-group">
+                      <label for="addname">用户名</label>
+                      <input type="text" placeholder="用户名" id="addname" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="addpsd">用户密码</label>
+                      <input type="password" placeholder="请输入用户密码" id="addpsd" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="addrepsd">确认用户密码</label>
+                      <input type="password" placeholder="请确认输入用户密码" id="addrepsd" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="addema">请输入用户邮箱</label>
+                      <input type="email" placeholder="请输入用户邮箱" id="addema" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="select">所属用户组</label>
+                      <select id="select" class="form-control">
+                        <option value="">请选择</option>
+                        <option value="">江苏</option>
+                        <option value="">上海</option>
+                        <option value="">北京</option>
+                        <option value="">天津</option>
+                      </select>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-danger" data-dismiss="modal">关闭</button>
+                  <button class="btn btn-success">提交</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container clearfix">
+  <ul class="pagination pull-right">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li><a href="" class="active">1</a></li>
+    <li><a href="">2</a></li>
+    <li><a href="">3</a></li>
+    <li><a href="">4</a></li>
+    <li><a href="">5</a></li>
+    <li><a href="">6</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</div>
+<footer>
+  <p>Copyright © 2012-2015 www.qingruan.com  ICP备xxxxxxx号-4</p>
+</footer>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

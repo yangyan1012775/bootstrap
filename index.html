@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理</title>
+  <link rel="stylesheet" href="dist/css/bootstrap.css">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="nav">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="" class="navbar-brand a0" >后台管理</a>
+          <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <li class="act"><a href="admin.html" class="a1"><i class="glyphicon glyphicon-home"></i> 后台首页</a></li>
+            <li><a href="user.html" class="a1"><i class="glyphicon glyphicon-user"></i> 用户管理</a></li>
+            <li><a href="content.html" class="a1"><i class="glyphicon glyphicon-list-alt"></i> 内容管理</a></li>
+            <li><a href="label.html" class="a1"><i class="glyphicon glyphicon-tags"></i> 标签管理</a></li>
+           </ul>
+          <ul class="nav navbar-nav pull-right">
+            <li class="dropdown">
+              <a href="" class="dropdown-toggle a1" data-toggle="dropdown">
+                admin<span class="caret"></span></a>
+              <ul class="dropdown-menu dropdown-menu-right">
+                <li><a href=""><i class="glyphicon glyphicon-screenshot"></i> 前台首页</a></li>
+                <li><a href=""><i class="glyphicon glyphicon-user"></i> 个人主页</a></li>
+                <li><a href=""><i class="glyphicon glyphicon-cog"></i> 个人设置</a></li>
+                <li><a href=""><i class="glyphicon glyphicon-credit-card"></i> 账户中心</a></li>
+                <li><a href=""><i class="glyphicon glyphicon-heart"></i> 我的收藏</a></li>
+              </ul>
+            </li>
+            <li><a href="" class="a1"><i class="glyphicon glyphicon-off"></i> 退出</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </nav>
+  <div class="container c1">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="panel-title">网站数据统计</div>
+          </div>
+          <div class="panel-body">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>统计项目</th>
+                  <th>今日</th>
+                  <th>昨日</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>注册会员</td>
+                  <td>200</td>
+                  <td>400</td>
+                </tr>
+                <tr>
+                  <td>登录会员</td>
+                  <td>4100</td>
+                  <td>5112</td>
+                </tr><tr>
+                  <td>今日发帖</td>
+                  <td>1540</td>
+                  <td>4511</td>
+                </tr><tr>
+                  <td>转载次数</td>
+                  <td>150</td>
+                  <td>110</td>
+                </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="panel-title">网站热帖</div>
+          </div>
+          <div class="panel-body nopad">
+            <ul>
+              <li class="clearfix">
+                <a href=""><i class="glyphicon glyphicon-list-alt"></i> 泛Mooc职业教育，效果和就业为王</a>
+                <p class="pull-right">2015/08/08</p>
+              </li>
+              <li class="clearfix">
+                <a href=""><i class="glyphicon glyphicon-list-alt"></i> 泛Mooc职业教育，效果和就业为王</a>
+                <p class="pull-right">2015/08/08</p>
+              </li>
+              <li class="clearfix">
+                <a href=""><i class="glyphicon glyphicon-list-alt"></i> 泛Mooc职业教育，效果和就业为王</a>
+                <p class="pull-right">2015/08/08</p>
+              </li>
+              <li class="clearfix">
+                <a href=""><i class="glyphicon glyphicon-list-alt"></i> 泛Mooc职业教育，效果和就业为王</a>
+                <p class="pull-right">2015/08/08</p>
+              </li>
+              <li class="clearfix">
+                <a href=""><i class="glyphicon glyphicon-list-alt"></i> 泛Mooc职业教育，效果和就业为王</a>
+                <p class="pull-right">2015/08/08</p>
+              </li>
+              <li class="nobor clearfix">
+                <a href=""><i class="glyphicon glyphicon-list-alt"></i> 泛Mooc职业教育，效果和就业为王</a>
+                <p class="pull-right">2015/08/08</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container c2">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="panel-title">今日访客统计</div>
+          </div>
+          <div class="panel-body">
+            <img src="images/data.png" alt="" class="img-responsive">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="panel-title">服务器状态</div>
+          </div>
+          <div class="panel-body">
+            <label for="cache">内存使用率：40%</label>
+            <div class="progress progress-striped active" id="cache">
+              <div class="progress-bar progress-bar-success" role="progressbar" style="width:40%;"></div>
+            </div>
+            <label for="db">数据库使用率：20%</label>
+            <div class="progress progress-striped active" id="db">
+              <div class="progress-bar progress-bar-info" role="progressbar" style="width:20%;"></div>
+            </div>
+            <label for="sd">磁盘使用率：60%</label>
+            <div class="progress progress-striped active" id="sd">
+              <div class="progress-bar progress-bar-warning" role="progressbar" style="width:60%;"></div>
+            </div>
+            <label for="cpu">cpu使用率：80%</label>
+            <div class="progress progress-striped active" id="cpu">
+              <div class="progress-bar progress-bar-danger" role="progressbar" style="width:80%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container c3">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="panel-title">团队留言板</div>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-sm-7">
+                <div class="clearfix thumbnail message">
+                  <img src="images/a.png" alt="" class="img-responsive pull-left a1">
+                  <div class="pull-left tex">
+                    <p class="p1">卓大哥</p>
+                    <p class="p2">技术大哥，今晚请把网站程序升级一下哈，现在的系统有漏洞，安全起见！</p>
+                  </div>
+                </div>
+                <div class="clearfix thumbnail message">
+                  <img src="images/b.png" alt="" class="img-responsive pull-right a1">
+                  <div class="pull-right tex jishu">
+                    <p class="p1">技术大哥</p>
+                    <p class="p2">收到，今晚凌晨2点准时升级！</p>
+                  </div>
+                </div>
+                <div class="clearfix thumbnail message">
+                  <img src="images/b.png" alt="" class="img-responsive pull-right a1">
+                  <div class="pull-right tex jishu">
+                    <p class="p1">技术大哥</p>
+                    <p class="p2">你先在站点发布一下通知哈！</p>
+                  </div>
+                </div>
+                <div class="clearfix thumbnail message">
+                  <img src="images/a.png" alt="" class="img-responsive pull-left a1">
+                  <div class="pull-left tex">
+                    <p class="p1">卓大哥</p>
+                    <p class="p2">好咧。</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-5 right">
+                <p>输入留言内容</p>
+                <form action="">
+                  <textarea name="" id="" cols="58" rows="4" placeholder="请输入留言内容"></textarea>
+                </form>
+                <button class="btn btn-default">留言</button>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <div class="panel-title">团队联系手册</div>
+                  </div>
+                  <div class="panel-body">
+                    <ul class="list-group">
+                      <li class="list-group-item">站长(李小龙)：<i class="glyphicon glyphicon-phone"></i>13134848615</li>
+                      <li class="list-group-item">技术(大牛哥)：<i class="glyphicon glyphicon-phone"></i>13456127694</li>
+                      <li class="list-group-item">推广(张二哥)：<i class="glyphicon glyphicon-phone"></i>13457815482</li>
+                      <li class="list-group-item">客服(王女士)：<i class="glyphicon glyphicon-phone"></i>131314567782 <i class="glyphicon glyphicon-phone-alt"></i>028-888888</li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Copyright © 2012-2015 www.qingruan.com  ICP备xxxxxxx号-4</p>
+  </footer>
+
+
+  <!--<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>-->
+  <!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>

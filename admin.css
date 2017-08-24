@@ -1,0 +1,109 @@
+@charset "UTF-8";
+body{
+  margin: 0;
+  padding:0;
+  text-decoration: none;
+  list-style: none;
+}
+#nav{
+  width:100%;
+  background: #f8f8f8;
+  border: none;
+}
+#nav ul .act,#nav ul li:hover{
+  background: #e7e7e7;
+}
+#nav a.a0{
+  color:#777777;
+  font-size: 16px;
+}
+#nav a.a1{
+  color:#555555;
+}
+.c1{
+  padding-top: 70px;
+}
+.c1 .nopad{
+  padding: 0;
+}
+.c1 ul{
+  list-style: none;
+  padding-left:0;
+  margin-bottom: 0;
+}
+.c1 ul li{
+  border-bottom: 1px solid #dddddd;
+  line-height:40px;
+  font-size: 14px;
+  padding: 0 15px;
+}
+.c1 ul li.nobor{
+  border: none;
+}
+.c1 ul li p{
+  color:#777777;
+  margin-bottom: 0;
+}
+.c3 div.message{
+  background: #f5f5f5;
+}
+.c3 div.message img.a1{
+  width: 80px;
+}
+.c3 div.message .tex{
+  margin-top: 10px;
+}
+.c3 div.message .jishu{
+  text-align:right;
+}
+.c3 div.message .tex .p1{
+  font-size: 16px;
+}
+.c3 div.message .tex .p2{
+  font-size: 14px;
+}
+.c3 div.right p{
+  font-weight: bold;
+}
+.c3 div.right textarea{
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+}
+.c3 div.right button{
+  margin:10px 0;
+}
+footer{
+  text-align: center;
+  line-height: 50px;
+}
+.c4,.c5{
+  padding-top: 28px;
+}
+.c4 div.listnav,.c5 div.listnav{
+  margin-top: 40px;
+}
+.c4 .stron,.c5 .stron{
+  font-weight: bold;
+}
+.c4 .bt{
+  margin: 20px 152px;
+}
+.c5 .f1{
+  margin-top: 12px;
+}
+.c6{
+  margin-top: 26px;
+}
+.c6 .form1{
+  width:92%;
+}
+.c6 .form2{
+  width: 100%;
+}
+.c6 .form3{
+  margin-bottom: 10px;
+}
+.c6 .ale{
+  display: inline-block;
+  width:14%;
+}

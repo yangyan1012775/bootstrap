@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>后台管理</title>
+  <link rel="stylesheet" href="dist/css/bootstrap.css">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="nav">
+  <div class="col-sm-1"></div>
+  <div class="col-sm-10">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a href="" class="navbar-brand a0" >后台管理</a>
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html" class="a1"><i class="glyphicon glyphicon-home"></i> 后台首页</a></li>
+          <li><a href="user.html" class="a1"><i class="glyphicon glyphicon-user"></i> 用户管理</a></li>
+          <li><a href="content.html" class="a1"><i class="glyphicon glyphicon-list-alt"></i> 内容管理</a></li>
+          <li class="act"><a href="label.html" class="a1"><i class="glyphicon glyphicon-tags"></i> 标签管理</a></li>
+        </ul>
+        <ul class="nav navbar-nav pull-right">
+          <li class="dropdown">
+            <a href="" class="dropdown-toggle a1" data-toggle="dropdown">
+              admin<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right">
+              <li><a href=""><i class="glyphicon glyphicon-screenshot"></i> 前台首页</a></li>
+              <li><a href=""><i class="glyphicon glyphicon-user"></i> 个人主页</a></li>
+              <li><a href=""><i class="glyphicon glyphicon-cog"></i> 个人设置</a></li>
+              <li><a href=""><i class="glyphicon glyphicon-credit-card"></i> 账户中心</a></li>
+              <li><a href=""><i class="glyphicon glyphicon-heart"></i> 我的收藏</a></li>
+            </ul>
+          </li>
+          <li><a href="" class="a1"><i class="glyphicon glyphicon-off"></i> 退出</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-1"></div>
+</nav>
+<div class="container c6">
+  <div class="row">
+    <div class="col-sm-12">
+      <h4 class="page-header">TAG标签管理</h4>
+      <div class="form-inline form3">
+        <div class="form-group form1">
+          <label for="lab" class="sr-only">label</label>
+          <input type="text" placeholder="请输入要添加的标签" class="form-control form2" id="lab">
+        </div>
+        <button class="btn btn-default">添加</button>
+      </div>
+    <div class="alert alert-info alert-dismissible ale" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+       bootstrap
+      </div>
+      <div class="alert alert-info alert-dismissible ale" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        青软学院
+      </div>
+      <div class="alert alert-info alert-dismissible ale" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        全栈课程
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <p>Copyright © 2012-2015 www.qingruan.com  ICP备xxxxxxx号-4</p>
+</footer>
+
+
+<!--<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>-->
+<!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

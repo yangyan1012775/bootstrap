@@ -1,0 +1,119 @@
+@charset "utf-8";
+body{
+  margin:0;
+  padding: 0;
+  text-decoration: none;
+}
+#nav{
+  background: #f8f8f8;
+  /*height:50px;*/
+  text-align: center;
+  border: none;
+}
+.logo{
+  width: 160px;
+  font-size:28px;
+  background-size: cover;
+}
+#navbar a{
+  color: #666666;
+  font-size:16px;
+}
+#home{
+  background: url("QST-images/home-bg.jpg") no-repeat 0 40px;
+
+}
+.lvjing{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+}
+.r1{
+  padding: 50px 0 40px 0;
+  text-align: center;
+  color:#fefefe;
+  line-height: 38px;
+}
+.r2 a{
+  color:#000000;
+}
+.r2 figure{
+  text-align: center;
+  margin:80px 0;
+}
+.r2 figure .f1{
+  font-size:20px;
+}
+.r3{
+  padding: 70px 0;
+  background: #d3d3d3;
+}
+.r4{
+  padding: 80px 0;
+}
+.course{
+  background: #d3d3d3;
+}
+.r5 .latest{
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.r5{
+  text-align: center;
+  padding: 94px 0 80px 0;
+}
+.r5 .white{
+  background: #ffffff;
+  margin-top: 20px;
+}
+.r5 .white .bg{
+  border-radius: 0;
+  background: #ffffff;
+  color:#40d2b1;
+  border: 1px solid #40d2b1;
+  margin: 18px 0 20px 0;
+}
+.r6{
+  padding: 78px 0 80px 0;
+}
+.r6 h2{
+  line-height: 80px;
+  font-size: 28px;
+}
+.r6 .bt{
+  width:140px;
+  height:34px;
+  border-radius: 0;
+  background: #41d2b1;
+  color:#ffffff;
+  border:none;
+  margin: 10px 10px 0 0 ;
+}
+#contact{
+  background: url("QST-images/contact-bg.png");
+}
+#contact .pad{
+  padding: 80px 0;
+}
+#contact .mar{
+  margin-bottom: 10px;
+}
+#contact .pad .wid{
+  width: 336px;
+  height:40px;
+  background:#3fd1b0 ;
+  color:#ffffff;
+  border-radius: 0;
+}
+#contact .white{
+  color:#ffffff;
+}
+footer{
+  width:100%;
+  background:#272822;
+  text-align: center;
+}
+footer p{
+  line-height:60px;
+  color:#ffffff;
+}
